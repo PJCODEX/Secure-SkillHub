@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const Portfolio = require('../models/Portfolio');
+const Portfolio = require('../models/portfolio');
 
 // Get portfolio of logged in user
 router.get('/', async (req, res) => {
