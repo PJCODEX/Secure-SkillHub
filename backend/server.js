@@ -15,7 +15,10 @@ const { authenticateToken } = require('./middleware/authMiddleware');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://secure-skill-hub.vercel.app/'
+}));
+
 app.use(express.json());
 
 
