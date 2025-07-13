@@ -84,21 +84,21 @@ Secure-SkillHub/
 └── README.md             # You're here!
 
 ----
-**🛠️ Debugging Challenges Faced**
+## 🛠️ Debugging Challenges Faced
 
-|        Issues                       |               Issue	Fix                            |
-                                                                                                                                                                        
-| ❌ Token not attaching to request   |  Added proper Authorization header in frontend      |
-| ❌ CORS errors	                    |  Configured CORS with correct frontend origin       |
-| ❌ Server not reading .env	        |  Added dotenv.config({ path }) in server.js         |
-| ❌ Portfolio returning null	        |  Ensured JWT middleware sets req.user correctly    |
-| ❌ Form not submitting without JS	  |  Used HTML <form action=... method="POST"> setup   |  
-| ❌401 Unauthorized on dashboard	    |  Properly passed JWT in Authorization header       |
-| ❌CORS errors from Vercel/Render	  |  Whitelisted frontend domain in Express cors() middleware |
-| ❌Login redirect failing silently	  |  Used localStorage to persist token + frontend redirect after login |
-| ❌Data not saving in MongoDB        | Checked req.user from jwt.verify() and ensured it matched the schema |
-| ❌UI bugs on mobile devices	        |  Used Bootstrap’s responsive grid system |     
- 
+| ❓ Issue                                  | ✅ Fix                                                                 |
+|------------------------------------------|------------------------------------------------------------------------|
+| ❌ Token not attaching to request         | Added proper `Authorization` header in frontend                        |
+| ❌ CORS errors                            | Configured CORS with correct frontend origin                           |
+| ❌ Server not reading `.env`              | Added `dotenv.config({ path })` in `server.js`                         |
+| ❌ Portfolio returning `null`             | Ensured JWT middleware correctly sets `req.user`                       |
+| ❌ Form not submitting without JS         | Used `<form>` with `POST` method and appropriate `action` attribute    |
+| ❌ 401 Unauthorized on dashboard          | Properly passed JWT in `Authorization` header                          |
+| ❌ CORS errors from Vercel/Render         | Whitelisted frontend domain in Express `cors()` middleware             |
+| ❌ Login redirect failing silently        | Stored JWT and username in `localStorage`; redirected on success       |
+| ❌ Data not saving in MongoDB             | Checked `req.user` from `jwt.verify()` and confirmed schema linkage    |
+| ❌ UI bugs on mobile devices              | Used Bootstrap's responsive grid system                                |
+
 ----
 
 🤝 Contribution Guide
