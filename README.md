@@ -46,7 +46,7 @@
 ----
 
 **Links**
-🔗 Live Frontend on Vercel: 
+🔗 Live Frontend on Vercel: https://secure-skill-hub.vercel.app/
 
 🔗 Backend API on Render:
 
