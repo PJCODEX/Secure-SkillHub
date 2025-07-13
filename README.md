@@ -28,7 +28,7 @@
 
   ---
 
-  🔐 Authentication Workflow
+  ## 🔐 Authentication Workflow
   
 1.Registration (/api/auth/register):
 .Validates uniqueness of email
@@ -102,17 +102,13 @@ Secure-SkillHub/
 
 ----
 
-🤝 Contribution Guide
+## 🤝 Contribution Guide
 Want to suggest a new feature or fix a bug?
 
 Fork this repo
 
-Clone your fork:
+Clone your fork: git clone https://github.com/your-username/Secure-SkillHub.git
 
-bash
-Copy
-Edit
-git clone https://github.com/PJCODEX/Secure-SkillHub.git
 Create a new branch:
 
 bash
