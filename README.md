@@ -46,6 +46,7 @@
 ----
 
 **Links**
+
 🔗 Live Frontend on Vercel: https://secure-skill-hub.vercel.app/
 
 🔗 Backend API on Render:
@@ -60,7 +61,7 @@
 | ⚙️ Backend   | Node.js, Express.js, JWT, bcrypt.js       |
 | 🗃️ Database   | MongoDB, Mongoose                         |
 | 🌍 Deployment | Render (API), Vercel (Static Frontend)   |
-| 📦 Tools     | dotenv, cors|
+| 📦 Tools     | dotenv, cors, gitignore|
 
 ---
 
