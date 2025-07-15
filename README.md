@@ -93,7 +93,6 @@ Secure-SkillHub/
 | ❌ CORS errors                            | Configured CORS with correct frontend origin                           |
 | ❌ Server not reading `.env`              | Added `dotenv.config({ path })` in `server.js`                         |
 | ❌ Portfolio returning `null`             | Ensured JWT middleware correctly sets `req.user`                       |
-| ❌ Form not submitting without JS         | Used `<form>` with `POST` method and appropriate `action` attribute    |
 | ❌ 401 Unauthorized on dashboard          | Properly passed JWT in `Authorization` header                          |
 | ❌ CORS errors from Vercel/Render         | Whitelisted frontend domain in Express `cors()` middleware             |
 | ❌ Login redirect failing silently        | Stored JWT and username in `localStorage`; redirected on success       |
