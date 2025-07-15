@@ -1,4 +1,4 @@
-const apiBase =  'https://secure-skillhub.onrender.com';
+const apiBase =  'https://secure-skillhub.onrender.com/';
 
 document.addEventListener('DOMContentLoaded', () => {
   // REGISTER
