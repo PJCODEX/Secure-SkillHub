@@ -74,4 +74,32 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'login.html';
       });
   }
+  // Save Portfolio
+const portfolioForm = document.getElementById('portfolioForm');
+if (portfolioForm) {
+  portfolioForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const bio = document.getElementById('bio').value;
+    const skills = document.getElementById('skills').value.split(',').map(s => s.trim());
+    const projects = document.getElementById('projects').value.split(',').map(p => p.trim());
+
+    try {
+      const res = await fetch(`${apiBase}/api/portfolio`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${localStorage.getItem('token')}`,
+        },
+        body: JSON.stringify({ bio, skills, projects }),
+      });
+
+      const data = await res.json();
+      alert(data.msg || 'Portfolio saved!');
+    } catch (err) {
+      alert('Something went wrong.');
+    }
+  });
+}
+
 });
