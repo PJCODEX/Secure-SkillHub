@@ -106,7 +106,7 @@ Want to suggest a new feature or fix a bug?
 
 Fork this repo
 
-Clone your fork: git clone https://github.com/your-username/Secure-SkillHub.git
+Clone your fork: git clone https://github.com/PJCODEX/Secure-SkillHub.git
 
 Create a new branch:
 
