@@ -47,9 +47,9 @@
 
 **Links**
 
-🔗 Live Frontend on Vercel: https://secure-skill-hub.vercel.app/
+🔗 Live Deployment: https://secure-skill-hub.vercel.app/
 
-🔗 Backend API on Render:
+
 
 ---
 
