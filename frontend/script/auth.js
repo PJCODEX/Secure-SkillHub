@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        document.getElementById('welcomeName').textContent = name;
+        document.getElementById('userName').textContent = name;
         console.log('Portfolio:', data);
       })
       .catch((err) => {
