@@ -16,7 +16,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://secure-skill-hub.vercel.app/', // ✅ Replace with your actual Vercel URL
+  origin: 'https://secure-skill-hub.vercel.app', // ✅ Replace with your actual Vercel URL
   credentials: true,
 }));
 
