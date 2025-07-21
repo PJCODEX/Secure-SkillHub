@@ -114,6 +114,7 @@ bash
 Copy
 Edit
 git checkout -b feature/your-feature-name
+
 Make changes, commit, and push:
 
 bash
@@ -121,5 +122,6 @@ Copy
 Edit
 git commit -m "Add: your feature"
 git push origin feature/your-feature-name
+
 Open a Pull Request with proper description.
 
