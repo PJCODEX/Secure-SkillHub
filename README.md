@@ -104,7 +104,7 @@ Secure-SkillHub/
 ## 🤝 Contribution Guide
 Want to suggest a new feature or fix a bug?
 
-Fork this repo
+Fork this repo: https://github.com/PJCODEX/Secure-SkillHub.git
 
 Clone your fork: git clone https://github.com/PJCODEX/Secure-SkillHub.git
 
