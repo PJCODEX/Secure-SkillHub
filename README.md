@@ -59,7 +59,7 @@
 |-------------|-------------------------------------------|
 | 🌐 Frontend  | HTML, CSS, Bootstrap 5.3, JavaScript      |
 | ⚙️ Backend   | Node.js, Express.js, JWT, bcrypt.js       |
-| 🗃️ Database   | MongoDB, Mongoose                         |
+| 🗃️ Database   | MongoDB Atlas, Mongoose                         |
 | 🌍 Deployment | Render (API), Vercel (Static Frontend)   |
 | 📁 Files      | dotenv,gitignore|
 
@@ -81,7 +81,8 @@ Secure-SkillHub/
 │   ├── login.html        # Login form
 │   ├── dashboard.html    # User dashboard (protected)
 │   ├── style.css         # Theme: Pink aesthetic with Bootstrap
-│
+│   ├── script/auth.js    
+ 
 └── README.md             # You're here!
 
 ----
