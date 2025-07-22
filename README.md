@@ -61,7 +61,7 @@
 | ⚙️ Backend   | Node.js, Express.js, JWT, bcrypt.js       |
 | 🗃️ Database   | MongoDB, Mongoose                         |
 | 🌍 Deployment | Render (API), Vercel (Static Frontend)   |
-| 📦 Tools     | dotenv, cors, gitignore|
+| 📁 Files      | dotenv,gitignore|
 
 ---
 
