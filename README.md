@@ -81,7 +81,7 @@ Secure-SkillHub/
 │   ├── login.html        # Login form
 │   ├── dashboard.html    # User dashboard (protected)
 │   ├── style.css         # Theme: Pink aesthetic with Bootstrap
-│   ├── script/auth.js    
+│   ├── script/auth.js    # handling client-side authentication logic
  
 └── README.md             # You're here!
 
