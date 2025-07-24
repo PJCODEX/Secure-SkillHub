@@ -117,8 +117,8 @@ cd Secure-SkillHub</br>
 (Open and edit files as needed using your code editor)
 
  5. Stage and commit your changes
-git add .
-**git commit -m "Add: Your short and meaningful description"**
+**git add .
+git commit -m "Add: Your short and meaningful description"**
 
  6. Push your changes to your fork
 **git push origin feature/your-feature-name**
