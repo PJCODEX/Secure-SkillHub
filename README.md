@@ -104,25 +104,30 @@ Secure-SkillHub/
 
 ## 🤝 Contribution Guide
 Want to suggest a new feature or fix a bug?
+# 1. Fork the repo on GitHub:
+# Visit: https://github.com/PJCODEX/Secure-SkillHub.git and click the "Fork" button (top-right)
 
-Fork this repo: https://github.com/PJCODEX/Secure-SkillHub.git
+# 2. Clone your fork
+git clone https://github.com/your-username/Secure-SkillHub.git
+cd Secure-SkillHub
 
-Clone your fork: git clone https://github.com/PJCODEX/Secure-SkillHub.git
-
-Create a new branch:
-
-bash
-Copy
-Edit
+# 3. Create a new feature or bugfix branch
 git checkout -b feature/your-feature-name
 
-Make changes, commit, and push:
+# 4. Make your changes
+# (Open and edit files as needed using your code editor)
 
-bash
-Copy
-Edit
-git commit -m "Add: your feature"
+# 5. Stage and commit your changes
+git add .
+git commit -m "Add: Your short and meaningful description"
+
+# 6. Push your changes to your fork
 git push origin feature/your-feature-name
 
-Open a Pull Request with proper description.
+# 7. Open a Pull Request
+# - Go to your forked repo on GitHub
+# - Click "Compare & pull request"
+# - Add a clear title and description 
+# - Submit the PR to the original repo (PJCODEX/Secure-SkillHub)
+
 
