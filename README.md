@@ -60,7 +60,7 @@
 | 🌐 Frontend  | HTML, CSS, Bootstrap 5.3, JavaScript      |
 | ⚙️ Backend   | Node.js, Express.js, JWT|
 | 🗃️ Database   | MongoDB Atlas, Mongoose                         |
-| 🌍 Deployment | Render (API), Vercel (Static Frontend)   |
+| 🌍 Deployment | Render (Backend), Vercel (Frontend)   |
 | 📁 Files      | dotenv,gitignore|
 |    bcrypt     | Password hashing|
 ---
