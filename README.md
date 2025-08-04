@@ -62,7 +62,7 @@
 | 🗃️ Database   | MongoDB Atlas, Mongoose                         |
 | 🌍 Deployment | Render (Backend), Vercel (Frontend)   |
 | 📁 Files      | dotenv,gitignore|
-|    bcrypt     | Password hashing|
+| 🔐 AUthentication | JWT, Bcrypt|
 ---
 
 ## 📁 Project Structure
