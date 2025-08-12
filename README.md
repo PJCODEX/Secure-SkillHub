@@ -130,3 +130,7 @@ git commit -m "Add: Your short and meaningful description"**
  - Submit the PR to the original repo (PJCODEX/Secure-SkillHub)
 
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
