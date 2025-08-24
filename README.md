@@ -18,12 +18,12 @@
 
 ## 🧩 Features
 
-- ✅ User Registration & Login
-- 🔐 **JWT-based** authentication with route protection
-- 🧠 Submit and save Bio, Skills, and Projects
-- 🎨 Clean UI with Bootstrap & Poppins fonts
-- 🚫 Restricted access to dashboard if not logged in
-- - Persistent data storage via **MongoDB**
+-  User Registration & Login
+-  **JWT-based** authentication with route protection
+-  Submit and save Bio, Skills, and Projects
+-  Clean UI with Bootstrap & Poppins fonts
+-  Restricted access to dashboard if not logged in
+-  Persistent data storage via **MongoDB**
 - ☁️ Hosted on **Render** (backend) and **Vercel** (frontend)
 
   ---
@@ -57,12 +57,12 @@
 
 | Layer        | Tech Used                                |
 |-------------|-------------------------------------------|
-| 🌐 Frontend  | HTML, CSS, Bootstrap 5.3, JavaScript      |
-| ⚙️ Backend   | Node.js, Express.js, JWT|
-| 🗃️ Database   | MongoDB Atlas, Mongoose                         |
-| 🌍 Deployment | Render (Backend), Vercel (Frontend)   |
-| 📁 Files      | dotenv,gitignore|
-| 🔐 Authentication | JWT, Bcrypt|
+|  Frontend  | HTML, CSS, Bootstrap 5.3, JavaScript      |
+| ⚙ Backend   | Node.js, Express.js, JWT|
+| 🗃 Database   | MongoDB Atlas, Mongoose                         |
+|  Deployment | Render (Backend), Vercel (Frontend)   |
+|  Files      | dotenv,gitignore|
+|  Authentication | JWT, Bcrypt|
 ---
 
 ## 📁 Project Structure
