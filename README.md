@@ -90,15 +90,15 @@ Secure-SkillHub/
 
 | ❓ Issue                                  | ✅ Fix                                                                 |
 |------------------------------------------|------------------------------------------------------------------------|
-| ❌ Token not attaching to request         | Added proper `Authorization` header in frontend                        |
-| ❌ CORS errors                            | Configured CORS with correct frontend origin                           |
-| ❌ Server not reading `.env`              | Added `dotenv.config({ path })` in `server.js`                         |
-| ❌ Portfolio returning `null`             | Ensured JWT middleware correctly sets `req.user`                       |
-| ❌ 401 Unauthorized on dashboard          | Properly passed JWT in `Authorization` header                          |
-| ❌ CORS errors from Vercel/Render         | Whitelisted frontend domain in Express `cors()` middleware             |
-| ❌ Login redirect failing silently        | Stored JWT and username in `localStorage`; redirected on success       |
-| ❌ Data not saving in MongoDB             | Checked `req.user` from `jwt.verify()` and confirmed schema linkage    |
-| ❌ UI bugs on mobile devices              | Used Bootstrap's responsive grid system                                |
+|  Token not attaching to request         | Added proper `Authorization` header in frontend                        |
+|  CORS errors                            | Configured CORS with correct frontend origin                           |
+|  Server not reading `.env`              | Added `dotenv.config({ path })` in `server.js`                         |
+|  Portfolio returning `null`             | Ensured JWT middleware correctly sets `req.user`                       |
+|  401 Unauthorized on dashboard          | Properly passed JWT in `Authorization` header                          |
+|  CORS errors from Vercel/Render         | Whitelisted frontend domain in Express `cors()` middleware             |
+|  Login redirect failing silently        | Stored JWT and username in `localStorage`; redirected on success       |
+|  Data not saving in MongoDB             | Checked `req.user` from `jwt.verify()` and confirmed schema linkage    |
+|  UI bugs on mobile devices              | Used Bootstrap's responsive grid system                                |
 
 ----
 
